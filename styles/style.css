@@ -283,16 +283,17 @@ h2 {
     margin-left: 150px;
   }
 
-  .footer-menu {
-    gap:20px;
-    margin-left: 100px;
-  }
-
   .form-style img {
     display: none;
   }
 
-  .description {
-    grid-column: 3;
+  .three__block {
+    grid-template-columns: 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .button_position {
+    inline-size: 100%;
   }
 }
