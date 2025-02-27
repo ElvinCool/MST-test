@@ -267,8 +267,35 @@ h2 {
     display: none;
   }
 
+  .menu a {
+    font-size: 40px;
+  }
+  .name-company__text{
+    font-size: 40px;
+  }
+  
+  h2 {
+    margin-right: 300px;
+    font-size: 100px;
+  }
+
+  .form {
+    font-size: 70px;
+  }
+
+  .form-label {
+    font-size: 30px;
+  }
+  .form-input {
+    font-size: 30px;
+  }
+
   .form-style {
-    inline-size: 655px;
+    inline-size: 705px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 500px;
+    padding-left: 80px;
+    font-size: 30px;
   }
 
   .footer-items {
@@ -280,7 +307,7 @@ h2 {
   }
 
   .footer-button {
-    margin-left: 150px;
+    display: none;
   }
 
   .form-style img {
@@ -289,11 +316,27 @@ h2 {
 
   .three__block {
     grid-template-columns: 1fr;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 120px;
+    margin-right: 100px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .description_list {
+    margin-top: 50px;
   }
 
   .button_position {
     inline-size: 100%;
+    font-size: 30px;
   }
+  .footer-information{
+    font-size: 10px;
+  }
+}
+
+@media (width >= 768px) {
+
 }
