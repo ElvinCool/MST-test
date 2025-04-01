@@ -19,7 +19,7 @@ h6,p,a {
 
 .header {
     display: flex;
-    column-gap: 90px;
+    column-gap: 60px;
     font-size: 18px;
     font-weight: 700;
     justify-content: space-between;
@@ -144,10 +144,6 @@ h6,p,a {
     .header-menu {
         order: 1;
         flex-wrap: nowrap;
-    }
-
-    .header-account {
-        aspect-ratio: 1;
     }
 
     .main-menu {
