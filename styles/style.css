@@ -103,6 +103,7 @@ h6,p,a {
 
 .main-discription-item {
     letter-spacing: 20%;
+    margin-top: 5px;
 }
 
 .description-new {
@@ -172,7 +173,7 @@ h6,p,a {
     .main-block {
         margin-left:26px;
         margin-right: 26px;
-        width: 75.04vw;
+        width: 60.04vw;
     }
 
     .main-menu {
@@ -195,8 +196,9 @@ h6,p,a {
     }
 
     .main-block {
-        width: 65.04vw;
+        width: 55.04vw;
     }
+
     .main-logo-items img{
         display: none;
     }
