@@ -164,11 +164,20 @@ h6,p,a {
 }
 
 @media (width <= 768px){
-    .main-block {
-        margin-left:56px;
-        margin-right: 500px;
-        width: 75.04vw;
+    .header {
+        margin-left:26px;
+        margin-right: 36px;
+    }
 
+    .main-block {
+        margin-left:26px;
+        margin-right: 26px;
+        width: 75.04vw;
+    }
+
+    .main-menu {
+        margin-left:26px;
+        margin-right: 26px;
     }
     .main-logo-items img{
         display: none;
@@ -176,12 +185,6 @@ h6,p,a {
 }
 
 @media (width <= 375px){
-    .header {
-        flex-wrap: wrap;
-        font-size: 14px;
-        margin-left:26px;
-        margin-right: 36px;
-    }
 
     .header-menu-list{
         column-gap: 20px;
@@ -190,14 +193,9 @@ h6,p,a {
     .header-menu-list-item {
         margin-top: 20px;
     }
-    .main-menu  {
-        margin-left: 26px;
-        font-size: ;
-    }
+
     .main-block {
-        margin-left:26px;
-        margin-right: 500px;
-        width: 15.04vw;
+        width: 65.04vw;
     }
     .main-logo-items img{
         display: none;
