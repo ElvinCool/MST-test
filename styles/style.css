@@ -19,13 +19,16 @@ h6,p,a {
 
 .header {
     display: flex;
-    column-gap: 60px;
     font-size: 18px;
     font-weight: 700;
     justify-content: space-between;
     margin-right: 116px;
     margin-top:32px;
     margin-left:6.04vw;
+}
+
+.header-logo {
+    margin-bottom: 10px;
 }
 
 .header-menu-list {
@@ -48,6 +51,7 @@ h6,p,a {
 .header-account {
     font-family: 'Root UI', sans-serif;
     white-space: nowrap;
+    margin-bottom: 10px;
 }
 
 .main-menu-item a{
@@ -180,7 +184,7 @@ h6,p,a {
     .main-block {
         margin-left:56px;
         margin-right: 500px;
-        width: 35.04vw;
+        width: 15.04vw;
 
     }
     .main-logo-items img{
